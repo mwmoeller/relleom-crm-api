@@ -1,4 +1,6 @@
 # relleom-crm-api
+While learning the Spring Framework and brushing up on some REST concepts, I thought I'd share my attempts with the world. 
+
 This is a REST API that exposes a simplified model of a CRM.  This implements th Hypermedia As The Engine Of Application State (HATEOAS) constraint out of the box using the Spring Framework, Spring Boot, MongoDB and auth0.
 
 # Getting started
