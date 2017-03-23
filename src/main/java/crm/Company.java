@@ -5,9 +5,6 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.hibernate.validator.constraints.NotEmpty;
 
-// import com.relleom.crm.Opportunity;
-// import com.relleom.crm.OpportunityRepository;
-
 public class Company {
     @Id private String id;
     @NotEmpty private String name;
