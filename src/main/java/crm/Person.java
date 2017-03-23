@@ -6,8 +6,8 @@ import org.hibernate.validator.constraints.NotEmpty;
 
 public class Person {
     @Id private String id;
-	@NotEmpty private String firstName;
-	@NotEmpty private String lastName;
+    @NotEmpty private String firstName;
+    @NotEmpty private String lastName;
     @NotEmpty private String email;
     private String title;
 
