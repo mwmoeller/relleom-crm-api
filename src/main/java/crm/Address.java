@@ -6,7 +6,7 @@ import org.hibernate.validator.constraints.NotEmpty;
 
 public class Address {
     @Id private String id;
-	@NotEmpty private String streetAddress;
+    @NotEmpty private String streetAddress;
     @NotEmpty private String city;
     @NotEmpty private String state;
     @NotEmpty private String postalCode;
