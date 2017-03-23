@@ -10,7 +10,7 @@ import org.hibernate.validator.constraints.NotEmpty;
 
 public class Company {
     @Id private String id;
-	@NotEmpty private String name;
+    @NotEmpty private String name;
     @DBRef private Address address;
     @DBRef private List<Opportunity> opportunities;
     @DBRef private List<Person> people;
