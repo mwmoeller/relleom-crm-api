@@ -6,7 +6,7 @@ import org.hibernate.validator.constraints.NotEmpty;
 
 public class Opportunity {
     @Id private String id;
-	@NotEmpty private String description;
+    @NotEmpty private String description;
     @NotEmpty private String stage;
     
 	public String getDescription() {
