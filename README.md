@@ -9,4 +9,4 @@ This is a REST API that exposes a simplified model of a CRM.  This implements th
  * Edit /src/main/resources/application.properties and use the values above to set auth0.audience, auth0.issuer, and auth0.clientsecret
  * install a MongoDB instance locally
  * install the JDK and install Gradle
- * Run gradle build.gradle
+ * Run 'gradle bootRun'
