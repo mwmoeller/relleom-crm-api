@@ -12,6 +12,9 @@ public class Address {
     @NotEmpty private String postalCode;
     @NotEmpty private String country;
 
+	public Address getId(){
+		return this;
+	}
 	public String getStreetAddress() {
 		return streetAddress;
 	}
